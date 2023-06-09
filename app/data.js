@@ -1,47 +1,47 @@
 export const quiz = {
-  totalQuestions: 5,
+  totalQuestions: 7,
   questions: [
     {
       id: 1,
-      question: "Сколько лет независимости Азербайджана?",
-      answers: ["30", "25", "20", "15"],
-      correctAnswer: "30",
+      question: "Какой алгоритм используется для сортировки строк?",
+      answers: ["Bubble Sort", "Selection Sort", "Insertion Sort", "Merge Sort"],
+      correctAnswer: "Bubble Sort",
     },
     {
       id: 2,
-      question:
-        "В какой стране находится село Дилагарда, известное благодаря своим красным апельсинам?",
-      answers: ["Азербайджан", "Грузия", "Украина", "Польша"],
-      correctAnswer: "Азербайджан",
+      question: "Какая технология используется для разработки Web приложений?",
+      answers: ["HTML", "JavaScript", "Python", "React"],
+      correctAnswer: "HTML",
     },
     {
       id: 3,
-      question: "Кто является автором национального гимна Азербайджана?",
-      answers: [
-        "Улвия Гаджибекова",
-        "Мешадибек Мамицев",
-        "Мирза Фаталы Ахундов",
-        "Муслим Магамаев",
-      ],
-      correctAnswer: "Улвия Гаджибекова",
+      question: "Как называется язык программирования с открытым исходным кодом?",
+      answers: ["Java", "Python", "C++", "PHP"],
+      correctAnswer: "Python",
     },
     {
       id: 4,
-      question: "Кто является самым известным азербайджанским писателем?",
-      answers: [
-        "Нариман Нариманов",
-        "Шейхулла Хусейнов",
-        "Азиз Алекперов",
-        "Нияти",
-      ],
-      correctAnswer: "Нариман Нариманов",
+      question: "Какое свойство используется для получения значения из объекта в JavaScript?",
+      answers: ["prop", "attr", "get", "set"],
+      correctAnswer: "prop",
     },
-    
     {
       id: 5,
-      question: "Какое животное является официальным символом Азербайджана?",
-      answers: ["Тигр", "Конь", "Сова", "Лиса"],
-      correctAnswer: "Конь",
+      question: "Какой алгоритм используется для поиска в массиве?",
+      answers: ["Binary Search", "Bubble Sort", "Merge Sort", "Selection Sort"],
+      correctAnswer: "Binary Search",
+    },
+    {
+      id: 6,
+      question: "Какой язык программирования используется для разработки приложений на iOS?",
+      answers: ["Swift", "Objective-C", "JavaScript", "Python"],
+      correctAnswer: "Swift",
+    },
+    {
+      id: 7,
+      question: "Как называется тип данных, который используется для хранения массивов в JavaScript?",
+      answers: ["Array", "Object", "Number", "Boolean"],
+      correctAnswer: "Array",
     },
   ],
 };
