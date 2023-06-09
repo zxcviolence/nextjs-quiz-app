@@ -1,5 +1,5 @@
 export const quiz = {
-  totalQuestions: 5,
+  totalQuestions: 10,
   questions: [
     {
       id: 1,
@@ -37,6 +37,56 @@ export const quiz = {
         "Array.from(iterable)",
       ],
       correctAnswer: "new Array()",
+    },
+    {
+      id: 6,
+      question: "Какая функция используется для получения значения из строки?",
+      answers: ["parseInt", "parseFloat", "parseDate", "parseBool"],
+      correctAnswer: "parseInt",
+    },
+    {
+      id: 7,
+      question:
+        "Какая функция используется в JavaScript для преобразования числа в строку?",
+      answers: ["toFixed", "toPrecision", "parseInt", "toString"],
+      correctAnswer: "toString",
+    },
+    {
+      id: 8,
+      question:
+        "Какая команду используется для выполнения кода при нажатии на кнопку?",
+      answers: [
+        "document.querySelector('#button').addEventListener('click', function() { });",
+        "document.querySelector('#button').onclick = function() { };",
+        "document.querySelector('#button').addEventListener('click', (event) => { });",
+        "document.querySelector('#button').onclick = (event) => { };",
+      ],
+      correctAnswer: [
+        "document.querySelector('#button').onclick = function() { };",
+      ],
+    },
+    {
+      id: 9,
+      question:
+        "Какая команда используется для добавления флага 'new' к объекту?",
+      answers: [
+        "[object Object].constructor",
+        "{}.constructor",
+        "new Object()",
+        "new {}",
+      ],
+      correctAnswer: ["new Object()"],
+    },
+    {
+      id: 35,
+      question: "Какую операцию выполняет функция slice в JavaScript?",
+      answers: [
+        "удаляет элемент из начала массива",
+        "удаляет элемент из конца массива",
+        "удаляет элемент из массива по индексу",
+        "удаляет элемент из массива по показателю",
+      ],
+      correctAnswer: ["удаляет элемент из начала массива"],
     },
   ],
 };

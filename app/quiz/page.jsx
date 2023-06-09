@@ -17,6 +17,7 @@ const page = () => {
   const { questions } = quiz;
   const { question, answers, correctAnswer } = questions[activeQuestion];
 
+  // Выбрать и проверить ответ
   const handleAnswerSelected = (answer, index) => {
     setChecked(true);
     setSelectedAnswerIndex(index);
@@ -27,6 +28,7 @@ const page = () => {
     }
   };
 
+  // Подсчитать очки и перейти к следующему вопросу
   const handleNextQuestion = () => {
     setSelectedAnswerIndex(null);
     setResult((prev) =>
@@ -97,7 +99,7 @@ const page = () => {
           </div>
         ) : (
           <div className="quiz-container">
-            <h3>Результат {(result.score / 25) * 100}%</h3>
+            <h3>Результат {(result.score / 50) * 100}%</h3>
             <p>
               Всего вопросов: <span>{questions.length}</span>
             </p>
