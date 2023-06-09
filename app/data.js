@@ -1,47 +1,42 @@
 export const quiz = {
-  totalQuestions: 7,
+  totalQuestions: 5,
   questions: [
     {
       id: 1,
-      question: "Какой алгоритм используется для сортировки строк?",
-      answers: ["Bubble Sort", "Selection Sort", "Insertion Sort", "Merge Sort"],
-      correctAnswer: "Bubble Sort",
-    },
-    {
-      id: 2,
       question: "Какая технология используется для разработки Web приложений?",
       answers: ["HTML", "JavaScript", "Python", "React"],
       correctAnswer: "HTML",
     },
     {
-      id: 3,
-      question: "Как называется язык программирования с открытым исходным кодом?",
+      id: 2,
+      question:
+        "Как называется язык программирования с открытым исходным кодом?",
       answers: ["Java", "Python", "C++", "PHP"],
       correctAnswer: "Python",
     },
     {
+      id: 3,
+      question: "Как в JavaScript можно перезаписать значение переменной?",
+      answers: ["=", "==", "===", "!="],
+      correctAnswer: "=",
+    },
+    {
       id: 4,
-      question: "Какое свойство используется для получения значения из объекта в JavaScript?",
-      answers: ["prop", "attr", "get", "set"],
-      correctAnswer: "prop",
-    },
-    {
-      id: 5,
-      question: "Какой алгоритм используется для поиска в массиве?",
-      answers: ["Binary Search", "Bubble Sort", "Merge Sort", "Selection Sort"],
-      correctAnswer: "Binary Search",
-    },
-    {
-      id: 6,
-      question: "Какой язык программирования используется для разработки приложений на iOS?",
+      question:
+        "Какой язык программирования используется для разработки приложений на iOS?",
       answers: ["Swift", "Objective-C", "JavaScript", "Python"],
       correctAnswer: "Swift",
     },
     {
-      id: 7,
-      question: "Как называется тип данных, который используется для хранения массивов в JavaScript?",
-      answers: ["Array", "Object", "Number", "Boolean"],
-      correctAnswer: "Array",
+      id: 5,
+      question: "Какая команда используется для создания массива в JavaScript?",
+      answers: [
+        "new Array(n)",
+        "new Array([1, 2, 3])",
+        "new Array()",
+        "Array.from(iterable)",
+      ],
+      correctAnswer: "new Array()",
     },
   ],
 };
