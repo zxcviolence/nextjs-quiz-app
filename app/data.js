@@ -36,14 +36,9 @@ export const quiz = {
       ],
       correctAnswer: "Нариман Нариманов",
     },
+    
     {
       id: 5,
-      question: "Какой город являетсяcapital of Azerbaijan?",
-      answers: ["Киев", "Анкара", "Баку", "Дубай"],
-      correctAnswer: "Баку",
-    },
-    {
-      id: 6,
       question: "Какое животное является официальным символом Азербайджана?",
       answers: ["Тигр", "Конь", "Сова", "Лиса"],
       correctAnswer: "Конь",
