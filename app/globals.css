@@ -76,3 +76,11 @@ li {
 .container p {
   padding: 8px 0;
 }
+
+.result-questions {
+  color: blueviolet;
+}
+
+.result-answers {
+  color: #f700ff;
+}

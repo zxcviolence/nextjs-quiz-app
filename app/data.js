@@ -78,7 +78,7 @@ export const quiz = {
       correctAnswer: ["new Object()"],
     },
     {
-      id: 35,
+      id: 10,
       question: "Какую операцию выполняет функция slice в JavaScript?",
       answers: [
         "удаляет элемент из начала массива",

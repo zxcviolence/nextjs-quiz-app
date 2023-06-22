@@ -112,6 +112,16 @@ const page = () => {
             <p>
               Неверных ответов: <span>{result.wrongAnswers}</span>
             </p>
+            <hr />
+            {quiz.questions.map((item) => (
+              <div key={item.id}>
+                <p className="result-questions">
+                  Вопрос {item.id}: {item.question}
+                </p>
+                <p className="result-answers">Ответ: {item.correctAnswer}</p>
+              </div>
+            ))}
+            <hr />
             <button onClick={() => handleReset()}>Заново</button>
           </div>
         )}
